@@ -6,24 +6,48 @@
 }
 
 .container {
-    height: 100px;
+    height: 100vh;
     width: 100%vh;
-    background: linear-gradient(to right, blue , red. #0000);
+    background-color: grey; 
     display: flex;
     justify-content: center;
 }
 
 .card {
-    height: 450px;
-    width: 20%;
+    margin: 110px;
+    height: auto;
+    width: 300px;
     display: flex;
     background-color: black;
     align-items: center;
     color: white;
-}
-.illustration {
-    height: 450px;
-    width: 20%;
-    box-sizing: border-box;
+    align-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    flex-direction: column;
 }
 
+.upper {
+    height: auto;
+    width: 250px;
+    margin-right: 60px;
+    border-radius: 30px;
+    justify-content: center;
+    display: block;
+}
+
+.second {
+    display: flex;
+    width: ;
+    color: blue;
+    background-color: aquamarine;
+    text-align: center;
+    justify-items: center;
+    margin-left: 60px;
+}
+.h3 {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(2, 2, 20);
+    text-align: center;
+}
