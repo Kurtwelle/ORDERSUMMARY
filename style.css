@@ -14,40 +14,85 @@
 }
 
 .card {
-    margin: 110px;
-    height: auto;
-    width: 300px;
-    display: flex;
-    background-color: black;
+    margin-top: 100px;
+    height: 500px;
+    width: 350px;
+    display: block;
+    background-color: rgb(218, 148, 148);
     align-items: center;
     color: white;
     align-content: center;
-    padding: 20px;
     border-radius: 30px;
     flex-direction: column;
 }
 
 .upper {
-    height: auto;
-    width: 250px;
-    margin-right: 60px;
-    border-radius: 30px;
+    height: 180px;
     justify-content: center;
     display: block;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
 }
 
-.second {
-    display: flex;
-    width: ;
-    color: blue;
-    background-color: aquamarine;
-    text-align: center;
-    justify-items: center;
-    margin-left: 60px;
+.illustration {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.h3 {
-    font-size: larger;
-    font-weight: bold;
-    color: rgb(2, 2, 20);
+  
+.words {
+    justify-content: center;
+    display: block;
     text-align: center;
+    color: rgb(1, 1, 17);
+    height:50px;
+    width: 100%;
+    /* margin-top: -70px; */
+    margin-bottom: 100px;
+}
+
+.order{
+    height: 0px;
+    white-space: 30px;
+    display: block;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.word-2 {
+    display: block;
+    font-weight: 30px;
+    color: rgb(241, 239, 239);
+    background-color: black;
+    margin-top: -20px;
+}
+
+.p {
+    justify-content: center;
+    align-content: center;
+
+}
+.second {
+    display: block;
+    width: 400px;
+    color: rgb(3, 3, 58);
+    background-color: rgb(225, 235, 232);
+    text-align: center;
+    justify-items: left;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.h4 {
+    width: 40px;
+    height: 50px;
+    display: inline-block;
+}
+.amount {
+    width: 40px;
+    display: inline-block;
+}
+.link {
+    display: flex;
 }
