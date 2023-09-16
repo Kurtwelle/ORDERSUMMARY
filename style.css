@@ -92,8 +92,11 @@
     align-items: center;
     height: 50px;
     margin-top: -20px;
-}
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
+    cursor: pointer;
+    
+}
 .music {
     width: 35px;
     display: inline;
@@ -131,5 +134,23 @@
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
 }
-
+.proceed :hover {
+    transition: all;
+    cursor: pointer;
+    background: linear-gradient(to top, #0b0006, #010d20);
+    width: auto;
+    }
+.cancel { 
+    color:rgb(186, 184, 184);
+    justify-content: center;
+    padding: 10px;
+    font-size: smaller;
+    display: flex;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: -20px;
+}
